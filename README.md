@@ -3,9 +3,9 @@
 This project features a comprehensive analysis of a superstore's sales data. The goal was to build an end-to-end data analysis solution, from raw data processing to an interactive Power BI dashboard, to uncover actionable insights and inform business strategy.
 
 ## Dashboard Preview
-*(You can replace this text with the screenshot you have)*
+
 ![Dashboard Screenshot](dashboard_preview.png) 
-*Note: A placeholder image `dashboard_preview.png` is referenced. Please add your screenshot with this name to the root project folder.*
+
 
 ---
 
@@ -41,7 +41,7 @@ The project followed a structured data analysis workflow:
     *   A **"What-if" Parameter** was implemented to allow for dynamic sales forecasting, enabling users to see the potential impact of different growth percentages.
 
 3.  **Dashboard Development (Power BI)**:
-    *   A multi-page, interactive dashboard was designed to present the findings in an intuitive way.
+    *   An interactive dashboard was designed to present the findings in an intuitive way.
     *   Visuals included KPI cards, time-series line charts, bar charts for categorical analysis, and a KPI donut chart.
     *   Slicers and filters were added to allow for deep-dive analysis by region, product category, and date.
 
