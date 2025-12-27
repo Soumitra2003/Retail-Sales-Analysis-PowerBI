@@ -3,9 +3,7 @@
 This project features a comprehensive analysis of a superstore's sales data. The goal was to build an end-to-end data analysis solution, from raw data processing to an interactive Power BI dashboard, to uncover actionable insights and inform business strategy.
 
 ## Dashboard Preview
-*(You can replace this text with the screenshot you have)*
 ![Dashboard Screenshot](dashboard_preview.png) 
-*Note: A placeholder image `dashboard_preview.png` is referenced. Please add your screenshot with this name to the root project folder.*
 
 ---
 
