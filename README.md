@@ -3,13 +3,18 @@
 This project features a comprehensive analysis of a superstore's sales data. The goal was to build an end-to-end data analysis solution, from raw data processing to an interactive Power BI dashboard, to uncover actionable insights and inform business strategy.
 
 ## Dashboard Preview
-![Dashboard Screenshot](dashboard_preview.png)
+
+### Page 1: Executive Overview
+![Executive Overview](pg1.png)
+
+### Page 2: Product Details
+![Product Details](pg2.png)
 
 ---
 
 ## Project Goal
 
-The primary objective was to create a dynamic and insightful dashboard to help business stakeholders understand sales performance. This involved answering key questions such as:
+The primary objective was to create a dynamic, multi-page dashboard to help business stakeholders understand sales performance at both a high level and a granular product level. This involved answering key questions such as:
 - What are the overall sales trends over time?
 - Which product categories and sub-categories are the top performers?
 - Which geographic locations are most profitable?
@@ -35,13 +40,15 @@ The project followed a structured data analysis workflow:
         *   `Total Sales`: The sum of all sales.
         *   `Profit Margin %`: To measure profitability.
         *   `YTD Sales`: For year-to-date performance tracking.
-        *   `Total Customers`: A distinct count of customers.
+        *   `Total Orders`: A distinct count of orders to track volume.
+        *   `Avg Sale per Item`: To monitor average transaction value.
     *   A **"What-if" Parameter** was implemented to allow for dynamic sales forecasting, enabling users to see the potential impact of different growth percentages.
 
 3.  **Dashboard Development (Power BI)**:
-    *   An interactive dashboard was designed to present the findings in an intuitive way.
-    *   Visuals included KPI cards, time-series line charts, bar charts for categorical analysis, and a KPI donut chart.
-    *   Slicers and filters were added to allow for deep-dive analysis by region, product category, and date.
+    *   A **multi-page navigation structure** was implemented to separate high-level insights from detailed analysis.
+    *   **Page 1 (Executive Overview):** Focuses on KPIs, future forecasting, and geographic performance.
+    *   **Page 2 (Product Details):** Provides a deep dive into product performance, including a top 10 products table and profit analysis by sub-category.
+    *   **Navigation Bar:** A custom side-navigation bar was created using buttons and page navigation actions for a seamless app-like experience.
 
 ---
 
