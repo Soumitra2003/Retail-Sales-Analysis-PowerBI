@@ -5,10 +5,10 @@ This project features a comprehensive analysis of a superstore's sales data. The
 ## Dashboard Preview
 
 ### Page 1: Executive Overview
-![Executive Overview](pg1.png)
+![Executive Overview](pg1 .png)
 
 ### Page 2: Product Details
-![Product Details](pg2.png)
+![Product Details](pg2 .png)
 
 ---
 
